@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios HTML</title>
+</head>
+<body>
+    
+<main>
+    <h1>Formulário</h1>
+    <hr>
+
+    <form>
+        <div>
+            <!-- label ligada ao id texto -->
+            <label for="texto">Nome:</label>
+            <input type="text"id="texto" placeholder="Informe o seu nome..."name="nome">
+            <!-- value ="comeca com um valor" -->
+            <!-- <label for="texto2">Input de texto:</label>
+            <input type="text"id="texto2" value="DAVI AMARAL">
+
+            <label for="texto3">Input de texto:</label>
+            <input type="text"id="texto3" name="Forma que o javascript ve"> -->
+        </div>
+        <br>
+        <div>
+            <label for="senha">Senha:</label>
+            <input type="password"id="senha" name="senha">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email"id="email"name="email">
+        </div>
+
+        <br>
+        <div>
+            <label for="data">Data de Nascimento:</label>
+            <input type="date" id="email"nome="data">
+        </div>
+
+        <br>
+        <div>
+            <label for="hora">Horário:</label>
+            <input type="time"id="hora"nome="hora">
+        </div>
+
+        <br>
+        <div>
+            <label for="qualquer">Numero:</label>
+            <input type="number"id="qualquer"name="qualquer">
+        </div>
+
+        <br>
+        <div>
+            <label for="file">Upload</label>
+            <input type="file"id="file"name="file">
+        </div>
+        <br>
+        <div>
+            <label for="url">Insira o url:</label>
+            <input type="url" name="url" id="url">
+        </div>
+        <br>
+        <div>
+            <label for="color">Cor</label>
+            <input type="color"id="color"name="color">
+        </div>
+
+        <br>
+        <div>
+            <label for="barra">Input:</label>
+            <input type="range"id="barra"name="barra"value="100"max="200"min="0">
+        </div>
+
+        <br>
+        <div>
+            <label for="idCheckBox">Inputcheckbox:</label>
+            <input type="checkbox"id="idCheckBox"name="qualquer">
+        </div>
+
+        <br>
+        <div>
+            <label for="radio">Unica seleçao</label>
+            <input type="radio"id="radio"name="radio">
+        </div>
+
+        <br>
+        <div>
+            <label for="limpar">Reset</label>
+            <input type="reset"id="limpar"value="Limpalimpa">
+        </div>
+
+        <br>
+        <textarea name="bio" id="bio"cols="30"rows="10"placeholder="Caixa de texto"></textarea>
+<br>
+        <select name="select" id="select">
+            <option value=""disabled selected>Selecione uma das opções</option>
+            <!-- desabilitada -->
+            <option value="receita">Receita</option>
+            <option value="despesa">Despesa</option>
+            <option value="transferencia">Transferencia</option>
+        </select>
+        <div>
+            <label for="qualquer"></label>
+            <input type="submit"id="qualquer"value="Enviar">
+        </div>
+    </form>
+</main>
+
+</body>
+</html>
